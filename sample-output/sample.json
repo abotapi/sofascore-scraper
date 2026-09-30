@@ -1,0 +1,383 @@
+[
+  {
+    "type": "team",
+    "id": 5001,
+    "sport": "football",
+    "name": "Riverside FC",
+    "fullName": "Riverside Football Club",
+    "shortName": "Riverside",
+    "nameCode": "RIV",
+    "gender": "M",
+    "national": false,
+    "ranking": null,
+    "country": "Exampleland",
+    "tournament": "Example Premier League",
+    "tournamentId": 701,
+    "managerName": "Jordan Hale",
+    "venue": "Riverside Arena",
+    "venueCity": "Riverside",
+    "venueCapacity": 42000,
+    "teamColors": {
+      "primary": "#1d4ed8",
+      "secondary": "#ffffff",
+      "text": "#ffffff"
+    },
+    "foundationDate": -1893456000,
+    "logo": "https://img.sofascore.com/api/v1/team/5001/image",
+    "url": "https://www.sofascore.com/team/football/riverside-fc/5001",
+    "pregameForm": {
+      "avgRating": "7.12",
+      "position": 3,
+      "value": "11",
+      "form": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ]
+    }
+  },
+  {
+    "type": "player",
+    "id": 900009,
+    "sport": "football",
+    "name": "Luca Brandt",
+    "shortName": "L. Brandt",
+    "team": "Riverside FC",
+    "teamId": 5001,
+    "position": "F",
+    "jerseyNumber": "9",
+    "shirtNumber": 9,
+    "height": 183,
+    "preferredFoot": "Right",
+    "country": "Exampleland",
+    "nationality": "Exampleland",
+    "dateOfBirth": 946684800,
+    "contractUntil": 1845000000,
+    "marketValue": 18500000,
+    "marketValueCurrency": "EUR",
+    "photo": "https://img.sofascore.com/api/v1/player/900009/image",
+    "url": "https://www.sofascore.com/player/luca-brandt/900009",
+    "statistics": {
+      "statistics": [
+        {
+          "appearances": 12,
+          "goals": 7,
+          "assists": 3,
+          "rating": 7.34,
+          "minutesPlayed": 1012
+        }
+      ]
+    }
+  },
+  {
+    "type": "match",
+    "id": 10000001,
+    "sport": "football",
+    "name": "Riverside FC - Harbor City",
+    "homeTeam": "Riverside FC",
+    "awayTeam": "Harbor City",
+    "homeTeamId": 5001,
+    "awayTeamId": 6001,
+    "homeTeamLogo": "https://img.sofascore.com/api/v1/team/5001/image",
+    "awayTeamLogo": "https://img.sofascore.com/api/v1/team/6001/image",
+    "homeScore": 2,
+    "awayScore": 1,
+    "homeScoreHalftime": 1,
+    "awayScoreHalftime": 0,
+    "homeScoreAggregated": null,
+    "awayScoreAggregated": null,
+    "statusType": "finished",
+    "statusDescription": "Ended",
+    "winnerCode": 1,
+    "startTimestamp": 1790003600,
+    "tournament": "Example Premier League",
+    "uniqueTournament": "Example Premier League",
+    "tournamentId": 701,
+    "season": "Example Premier League 26/27",
+    "round": null,
+    "venue": "Riverside Arena",
+    "venueCity": "Riverside",
+    "latitude": 51.5,
+    "longitude": -0.12,
+    "referee": null,
+    "attendance": null,
+    "hasXg": null,
+    "country": "Exampleland",
+    "url": "https://www.sofascore.com/football/match/riverside-fc-harbor-city/mock1",
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Ball possession",
+                "home": "58%",
+                "away": "42%",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event"
+              },
+              {
+                "name": "Expected goals",
+                "home": "1.84",
+                "away": "0.92",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event"
+              },
+              {
+                "name": "Total shots",
+                "home": "15",
+                "away": "8",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lineups": {
+      "confirmed": true,
+      "home": {
+        "players": [
+          {
+            "player": {
+              "name": "Alex Moreno",
+              "shortName": "A. Moreno",
+              "position": "G",
+              "jerseyNumber": "1",
+              "id": 900001
+            },
+            "shirtNumber": 1,
+            "position": "G",
+            "substitute": false
+          },
+          {
+            "player": {
+              "name": "Sam Keller",
+              "shortName": "S. Keller",
+              "position": "D",
+              "jerseyNumber": "4",
+              "id": 900004
+            },
+            "shirtNumber": 4,
+            "position": "D",
+            "substitute": false
+          },
+          {
+            "player": {
+              "name": "Luca Brandt",
+              "shortName": "L. Brandt",
+              "position": "F",
+              "jerseyNumber": "9",
+              "id": 900009
+            },
+            "shirtNumber": 9,
+            "position": "F",
+            "substitute": false
+          }
+        ],
+        "supportStaff": [],
+        "formation": "4-3-3",
+        "playerColor": {
+          "primary": "1d4ed8",
+          "number": "ffffff"
+        },
+        "goalkeeperColor": {
+          "primary": "16a34a",
+          "number": "ffffff"
+        }
+      },
+      "away": {
+        "players": [
+          {
+            "player": {
+              "name": "Ivo Petrov",
+              "shortName": "I. Petrov",
+              "position": "G",
+              "jerseyNumber": "12",
+              "id": 900012
+            },
+            "shirtNumber": 12,
+            "position": "G",
+            "substitute": false
+          },
+          {
+            "player": {
+              "name": "Noah Lind",
+              "shortName": "N. Lind",
+              "position": "D",
+              "jerseyNumber": "5",
+              "id": 900005
+            },
+            "shirtNumber": 5,
+            "position": "D",
+            "substitute": false
+          },
+          {
+            "player": {
+              "name": "Ray Osei",
+              "shortName": "R. Osei",
+              "position": "F",
+              "jerseyNumber": "11",
+              "id": 900011
+            },
+            "shirtNumber": 11,
+            "position": "F",
+            "substitute": false
+          }
+        ],
+        "supportStaff": [],
+        "formation": "4-4-2",
+        "playerColor": {
+          "primary": "dc2626",
+          "number": "ffffff"
+        },
+        "goalkeeperColor": {
+          "primary": "000000",
+          "number": "ffffff"
+        }
+      },
+      "statisticalVersion": 1
+    },
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 2,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "incidentType": "period",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 5400
+      },
+      {
+        "text": "HT",
+        "homeScore": 1,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "incidentType": "period",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700
+      }
+    ]
+  },
+  {
+    "type": "match",
+    "id": 10000002,
+    "sport": "football",
+    "name": "Northgate United - Lakeside Rovers",
+    "homeTeam": "Northgate United",
+    "awayTeam": "Lakeside Rovers",
+    "homeTeamId": 5002,
+    "awayTeamId": 6002,
+    "homeTeamLogo": "https://img.sofascore.com/api/v1/team/5002/image",
+    "awayTeamLogo": "https://img.sofascore.com/api/v1/team/6002/image",
+    "homeScore": 1,
+    "awayScore": 1,
+    "homeScoreHalftime": 0,
+    "awayScoreHalftime": 1,
+    "homeScoreAggregated": null,
+    "awayScoreAggregated": null,
+    "statusType": "inprogress",
+    "statusDescription": "2nd half",
+    "winnerCode": null,
+    "startTimestamp": 1790007200,
+    "tournament": "Example Championship",
+    "uniqueTournament": "Example Championship",
+    "tournamentId": 702,
+    "season": "Example Championship 26/27",
+    "round": null,
+    "venue": null,
+    "venueCity": null,
+    "latitude": null,
+    "longitude": null,
+    "referee": null,
+    "attendance": null,
+    "hasXg": null,
+    "country": "Exampleland",
+    "url": "https://www.sofascore.com/football/match/northgate-united-lakeside-rovers/mock2",
+    "statistics": null,
+    "lineups": null,
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 1,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "incidentType": "period",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 5400
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "incidentType": "period",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700
+      }
+    ]
+  },
+  {
+    "type": "match",
+    "id": 10000003,
+    "sport": "football",
+    "name": "Westport Athletic - Eastfield Town",
+    "homeTeam": "Westport Athletic",
+    "awayTeam": "Eastfield Town",
+    "homeTeamId": 5003,
+    "awayTeamId": 6003,
+    "homeTeamLogo": "https://img.sofascore.com/api/v1/team/5003/image",
+    "awayTeamLogo": "https://img.sofascore.com/api/v1/team/6003/image",
+    "homeScore": null,
+    "awayScore": null,
+    "homeScoreHalftime": null,
+    "awayScoreHalftime": null,
+    "homeScoreAggregated": null,
+    "awayScoreAggregated": null,
+    "statusType": "notstarted",
+    "statusDescription": "Not started",
+    "winnerCode": null,
+    "startTimestamp": 1790010800,
+    "tournament": "Example Cup",
+    "uniqueTournament": "Example Cup",
+    "tournamentId": 703,
+    "season": "Example Cup 26/27",
+    "round": null,
+    "venue": null,
+    "venueCity": null,
+    "latitude": null,
+    "longitude": null,
+    "referee": null,
+    "attendance": null,
+    "hasXg": null,
+    "country": "Exampleland",
+    "url": "https://www.sofascore.com/football/match/westport-athletic-eastfield-town/mock3",
+    "statistics": null,
+    "lineups": null,
+    "incidents": []
+  }
+]
